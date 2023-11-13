@@ -1,0 +1,78 @@
+header {
+    background-color: #7F9EB2;
+    text-align: center;
+    padding: 5px;
+}
+
+main {
+    background-color: #DAE9F4;
+    padding: 5px;
+}
+
+.first {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.first1 {
+    background-color: whitesmoke;
+    float: left;
+    width: 20%;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/*
+.first2 {
+    background-color: whitesmoke;
+    text-align: right;
+    width: 50%;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+*/
+
+.photo {
+    width: 80%;
+    border-radius: 20px;
+
+}
+
+.FB {
+    width: 32%;
+
+}
+
+.IG {
+    width: 32%;
+
+}
+
+.mail {
+    width: 32%;
+
+}
+
+.second {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+aside {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
