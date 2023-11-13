@@ -11,23 +11,14 @@ main {
 
 .first {
     background-color: whitesmoke;
-    text-align: center;
+    float: center;
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
 }
 
-.first1 {
-    background-color: whitesmoke;
-    float: left;
-    width: 20%;
-    padding: 5px;
-    margin: 15px;
-    border-radius: 10px;
-}
-
 /*
-.first2 {
+.first1 {
     background-color: whitesmoke;
     text-align: right;
     width: 50%;
@@ -36,26 +27,25 @@ main {
     border-radius: 10px;
 }
 */
+.first2 {
+    background-color: whitesmoke;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 20%;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 10px;
+}
 
 .photo {
-    width: 80%;
+    width: 20%;
     border-radius: 20px;
 
 }
 
-.FB {
-    width: 32%;
-
-}
-
-.IG {
-    width: 32%;
-
-}
-
-.mail {
-    width: 32%;
-
+.contact {
+    width: 10%;
 }
 
 .second {
@@ -65,11 +55,26 @@ main {
     border-radius: 10px;
 }
 
-
-aside {
+.third {
     background-color: whitesmoke;
     padding: 15px;
     margin: 20px;
+    border-radius: 10px;
+}
+
+.schoolname {
+    font-size: x-large;
+}
+
+.forth {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.photo1 {
+    width: 30%;
     border-radius: 10px;
 }
 
