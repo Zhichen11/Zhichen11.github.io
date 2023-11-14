@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     background-color: #7F9EB2;
     text-align: center;
@@ -7,6 +11,33 @@ header {
 main {
     background-color: #DAE9F4;
     padding: 5px;
+}
+
+.menu {
+    position: fixed;
+    right: 0px;
+    z-index: 1;
+    text-align: right;
+    color: white;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: inherit;
+
+}
+
+nav>ul {
+    list-style: none;
+    background-color: #77919D;
+    border-radius: 3%;
+    margin: 0%;
+    padding: 1%;
+}
+
+nav a:hover {
+    background-color: #415A77;
+    color: white;
 }
 
 .first {
@@ -44,7 +75,7 @@ main {
 }
 
 .photo {
-    width: 20%;
+    width: 25%;
     border-radius: 20px;
 }
 
@@ -59,15 +90,54 @@ main {
     border-radius: 10px;
 }
 
+.skill {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillitems {
+    font-weight: bold;
+}
+
+.progress {
+    width: 38%;
+    height: 20%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar {
+    width: 0;
+    height: 25px;
+    background-color: #415A77;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
 .third {
     background-color: whitesmoke;
     padding: 30px;
     margin: 60px;
     border-radius: 10px;
+    font-weight: bold;
+}
+
+.edu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo1-1,
+.photo1-2,
+.photo1-3,
+.photo1-4 {
+    text-align: center;
 }
 
 .photo1 {
-    width: 15%;
+    width: 160px;
+    height: 150px;
     border-radius: 10px;
 }
 
@@ -75,12 +145,17 @@ main {
     font-size: x-large;
 }
 
+.forth {
+    display: flex;
+    justify-content: space-around;
+}
+
 .forth1 {
     background-color: whitesmoke;
     padding: 30px;
     margin: 60px;
     border-radius: 10px;
-    width: 37%;
+    width: 300%;
 }
 
 .forth2 {
@@ -88,10 +163,7 @@ main {
     padding: 30px;
     margin: 60px;
     border-radius: 10px;
-    width: 37%;
-    position: absolute;
-    top: 200%;
-    left: 47%;
+    width: 300%;
 }
 
 .photo2 {
