@@ -2,14 +2,19 @@ body {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 header {
-    background-color: #7F9EB2;
+    background-color: #1B263B;
     text-align: center;
     padding: 5px;
+    color: white;
 }
 
 main {
-    background-color: #DAE9F4;
+    background-color: #92A6BF;
     padding: 5px;
 }
 
@@ -19,17 +24,17 @@ main {
     z-index: 1;
     text-align: right;
     color: white;
+
 }
 
 nav a {
     color: inherit;
     text-decoration: inherit;
-
 }
 
 nav>ul {
     list-style: none;
-    background-color: #77919D;
+    background-color: #92A6BF;
     border-radius: 3%;
     margin: 0%;
     padding: 1%;
@@ -45,6 +50,8 @@ nav a:hover {
     padding: 50px;
     margin: 60px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*
@@ -60,9 +67,9 @@ nav a:hover {
 .first2 {
     background-color: whitesmoke;
     position: absolute;
-    top: 25.5%;
-    left: 50%;
-    width: 30%;
+    top: 24%;
+    left: 45%;
+    width: 35%;
     padding: 5px;
     margin: 15px;
     border-radius: 10px;
@@ -72,6 +79,15 @@ nav a:hover {
     font-size: x-large;
     font-weight: bold;
     line-height: 50px;
+    ;
+}
+
+.first4 {
+    background-color: #778DA9;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px
 }
 
 .photo {
@@ -97,6 +113,12 @@ nav a:hover {
 
 .skillitems {
     font-weight: bold;
+}
+
+.text {
+    color: white;
+    text-align: right;
+    padding: 2px;
 }
 
 .progress {
