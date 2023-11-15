@@ -24,6 +24,11 @@ main {
     z-index: 1;
     text-align: right;
     color: white;
+    border-top-style: dashed;
+    border-left-style: dashed;
+    border-bottom-style: dashed;
+    border-width: 3px;
+    border-color: white;
 
 }
 
@@ -40,10 +45,12 @@ nav>ul {
     padding: 1%;
 }
 
+/*
 nav a:hover {
     background-color: #415A77;
     color: white;
 }
+*/
 
 .first {
     background-color: whitesmoke;
@@ -191,6 +198,15 @@ nav a:hover {
 .photo2 {
     width: 75%;
     border-radius: 10px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #92A6BF;
+
+}
+
+.photo2 :hover {
+    transform: scale(1.08);
+    transition: ease;
 }
 
 .copyright {
